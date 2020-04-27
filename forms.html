@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--learn forms from html & css book-->
+
+<form action="#">
+
+    <label for="">Username</label>
+    <input type="text" name="name" placeholder="username">
+    <br>
+    <label for="">email</label>
+    <input type="text" name="name" placeholder="email">
+    <br>
+    <label for="">Password</label>
+    <input type="password" placeholder="password">
+    <br>
+    <textarea cols="50" rows="10">Enter your message</textarea>
+    <br>
+    <button>Send</button>
+  
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+
+    <!-- used radio ---->
+
+    <!--لازم تضيف name علشان يختار واحد فقط منهم-->
+
+    <input type="radio" checked="checked" name="pg" value="php">php
+    <input type="radio" name="pg"  value="python">python
+    <input type="radio"  name="pg"  value="javascript">javascript
+
+    <!--check box-->
+    <br>
+    <br>
+    <br>
+
+    <input type="checkbox" name="site" checked="checked" value="udemy">Udemy
+    <input type="checkbox" name="site" value="coursera">Coursera
+    <input type="checkbox" name="site" value="udacity">udacity
+    
+     <!--Select-->
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+     <p>whats the programing language is best</p>
+
+     <select name="devise">
+
+        <option value="php">php</option>
+        <option value="css">css</option>
+        <option value="javascript">javascript</option>
+        <option value="ruby">ruby</option>
+        <option value="java">java</option>
+
+     </select>
+
+
+
+     <!-- multible select-->
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+
+     <!--size = count values here 5 only -->
+        <select multiple="multible" size='5' >
+
+            <option value="one" selected="selected">one</option>
+            <option value="tow">tow</option>
+            <option value="there">there</option>
+            <option value="four">four</option>
+            <option value="five">five</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+   
+     <!-- upload-->
+<p>upload your file</p>
+     <input type="file" name="userupload"><br>
+     <input type="submit" value="Upload" />
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+
+     <p>subscribe to email </p>
+     
+     <input type="text" name="email">
+     <input type="submit" name="subscribe" value="Subscribe">
+
+
+    
+
+     <!-- fildest -->
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+
+     <fieldset>
+
+        <legend>Contact details</legend>
+
+
+        <label>Email:<br>
+        <input type="text" name="email" /></label><br>
+
+        <label>Mobile : <br>
+        <input type="text" name="mobile"></label><br>
+
+
+
+        <label>Telephone :<br>
+        <input type="text" name="telephone"></label><br>
+
+        <br>
+
+        <input type="submit">
+
+    
+
+     </fieldset>
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+
+     <!--field date-->
+
+     <p>what is date today</p>
+
+     <input type="date" name="date">
+     <input type="submit" value="Sedn">
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+     <!-- input searh -->
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+     <label>search</label>
+     <input type="search" placeholder="Search" name="search">
+     <input type="submit" value="submit">
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+     <!-- exercize -->
+
+     <p style="text-align: center">الواجب</p>
+
+     <fieldset>
+
+         <legend>Your Details</legend>
+         Name : <input type="email"><br>
+         Email : <input type="name">
+    
+     </fieldset>
+
+     
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+
+
+     <fieldset>
+
+        <legend>Your Review</legend>
+
+        how did you hear about us ? <select>
+            <option value="Google">Google</option>
+            <option value="Google">Facebook</option>
+            <option value="Google">Twitter</option>
+        </select>
+
+        <p>Whould you visit again ?</p>
+        <input type="radio" value="yes" checked="checked" name="visit">yes
+        <input type="radio" value="no"  name="visit">no
+
+        <p>Comment : </p>
+        <textarea cols="60" rows="10" placeholder="Addd your Comment here"></textarea>
+        <input type="submit" value="Send">
+     </fieldset>
+
+
+
+
+</form>
+</body>
+</html>
